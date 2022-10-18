@@ -11622,18 +11622,14 @@ textarea.form-control-lg {
   width: 100%;
   height: auto;
   display: flex;
-  -webkit-box-align: center;
   align-items: center;
   position: absolute;
   bottom: 0px;
   padding: 0px 10px;
   list-style-type: none;
   font-size: 0.7rem;
-}
-@media (max-width: 575.98px) {
-  .portfolio ul {
-    padding-top: 100px;
-  }
+  left: 0;
+  flex-wrap: wrap;
 }
 .portfolio li {
   margin-left: 20px;
@@ -11650,8 +11646,15 @@ textarea.form-control-lg {
 }
 @media (min-width: 768px) {
   .portfolio-box {
-    height: 540px;
+    height: 400px;
   }
+}
+.portfolio-box a {
+  color: #6ef3a5;
+  text-decoration: none;
+}
+.portfolio-box a:hover {
+  color: #fff;
 }
 .portfolio-box__i a {
   color: #6ef3a5;
@@ -11671,12 +11674,10 @@ textarea.form-control-lg {
 .portfolio-box--top {
   color: #fff;
   width: 100%;
-  height: 70px;
-  padding: 20px 30px;
+  padding-top: 20px;
+  margin-bottom: 5px;
   display: flex;
-  -webkit-box-align: center;
   align-items: center;
-  -webkit-box-pack: justify;
   justify-content: space-between;
 }
 .portfolio-box--top h1 {
@@ -11687,14 +11688,12 @@ textarea.form-control-lg {
   font-weight: 700;
 }
 .portfolio-box img {
-  width: 70%;
-  height: 50%;
-  margin-left: 15%;
+  width: 100%;
   margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
+  margin-top: 5px;
+  object-fit: cover;
 }
 .portfolio-box p {
-  padding: 10px 30px;
   font-size: 15px;
   margin-bottom: 3rem;
   font-family: Calibre;
@@ -11850,6 +11849,11 @@ textarea.form-control-lg {
 }
 .aabout--list {
   color: #adb5bd;
+}
+@media (max-width: 575.98px) {
+  .aabout.amb {
+    display: none;
+  }
 }
 
 .myr {

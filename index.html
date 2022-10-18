@@ -1,377 +1,524 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sulyman Ayo</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Sulyman Ayo</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-        <!-- MDB -->
-        <link rel="stylesheet" href="assets/css/fontawesome.css">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <body>
+    <!-- The main div -->
+    <!-- START THE NAVBAR SECTION -->
 
-    </head>
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow">
+      <div class="container">
+        <h1><a href="#Hero">Ayomi</a></h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav cc">
+            <li class="nav-item navd navd--1">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item navd navd--2">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item navd navd--3">
+              <a class="nav-link" href="#project">project</a>
+            </li>
+            <li>
+              <div class="nava">
+                <span class="navdd navdd--1">
+                  <a href="" target="_blank" rel="noreferrer">
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 24 24"
+                      class="react-icons"
+                      height="15"
+                      width="15"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M24,4.3086 C23.117,4.7006 22.168,4.9646 21.172,5.0836 C22.188,4.4746 22.969,3.5096 23.337,2.3596 C22.386,2.9246 21.332,3.3336 20.21,3.5556 C19.312,2.5976 18.032,1.9996 16.616,1.9996 C13.897,1.9996 11.692,4.2046 11.692,6.9236 C11.692,7.3096 11.736,7.6856 11.82,8.0456 C7.728,7.8406 4.099,5.8806 1.671,2.9006 C1.247,3.6286 1.004,4.4736 1.004,5.3766 C1.004,7.0846 1.873,8.5926 3.195,9.4756 C2.388,9.4486 1.628,9.2276 0.964,8.8596 L0.964,8.9206 C0.964,11.3066 2.661,13.2966 4.914,13.7486 C4.501,13.8626 4.065,13.9216 3.617,13.9216 C3.299,13.9216 2.991,13.8906 2.69,13.8336 C3.317,15.7896 5.135,17.2136 7.29,17.2536 C5.604,18.5736 3.481,19.3606 1.175,19.3606 C0.777,19.3606 0.385,19.3376 0,19.2926 C2.179,20.6886 4.767,21.5046 7.548,21.5046 C16.605,21.5046 21.557,14.0016 21.557,7.4946 C21.557,7.2816 21.552,7.0696 21.543,6.8586 C22.505,6.1636 23.34,5.2966 24,4.3086"
+                      ></path>
+                    </svg>
+                    Twitter
+                  </a>
+                </span>
+                <span class="navdd navdd--2">
+                  <a
+                    href="https://github.com/SulymanAyomi"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 1024 1024"
+                      class="react-icons"
+                      height="15"
+                      width="15"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"
+                      ></path>
+                    </svg>
+                    Github
+                  </a>
+                </span>
+                <span class="Btn-mail navdd navdd--3">
+                  <a class="mail" href="mailto:sulymanayomi@gmail.com">
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 14 16"
+                      height="1em"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M0 4v8c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H1c-.55 0-1 .45-1 1zm13 0L7 9 1 4h12zM1 5.5l4 3-4 3v-6zM2 12l3.5-3L7 10.5 8.5 9l3.5 3H2zm11-.5l-4-3 4-3v6z"
+                      ></path>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <body>
-        <!-- The main div -->
-        <!-- START THE NAVBAR SECTION -->
+    <!-- intro section -->
 
-        <nav class="navbar navbar-expand-lg navbar-dark menu shadow">
-            <div class="container">
-                <h1><a href="#Hero">Ayomi</a></h1>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav cc">
-                        <li class="nav-item navd navd--1"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                        <li class="nav-item navd navd--2"><a class="nav-link" href="#about">about</a></li>
-                        <li class="nav-item navd navd--3"><a class="nav-link" href="#project">project</a></li>
-                        </li>
-                        <li>
-                            <div class="nava">
-                                <span class="navdd navdd--1">
-                                    <a href="" target="_blank" rel="noreferrer">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="react-icons" height="15" width="15" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd"
-                                                d="M24,4.3086 C23.117,4.7006 22.168,4.9646 21.172,5.0836 C22.188,4.4746 22.969,3.5096 23.337,2.3596 C22.386,2.9246 21.332,3.3336 20.21,3.5556 C19.312,2.5976 18.032,1.9996 16.616,1.9996 C13.897,1.9996 11.692,4.2046 11.692,6.9236 C11.692,7.3096 11.736,7.6856 11.82,8.0456 C7.728,7.8406 4.099,5.8806 1.671,2.9006 C1.247,3.6286 1.004,4.4736 1.004,5.3766 C1.004,7.0846 1.873,8.5926 3.195,9.4756 C2.388,9.4486 1.628,9.2276 0.964,8.8596 L0.964,8.9206 C0.964,11.3066 2.661,13.2966 4.914,13.7486 C4.501,13.8626 4.065,13.9216 3.617,13.9216 C3.299,13.9216 2.991,13.8906 2.69,13.8336 C3.317,15.7896 5.135,17.2136 7.29,17.2536 C5.604,18.5736 3.481,19.3606 1.175,19.3606 C0.777,19.3606 0.385,19.3376 0,19.2926 C2.179,20.6886 4.767,21.5046 7.548,21.5046 C16.605,21.5046 21.557,14.0016 21.557,7.4946 C21.557,7.2816 21.552,7.0696 21.543,6.8586 C22.505,6.1636 23.34,5.2966 24,4.3086">
-                                            </path>
-                                        </svg> Twitter
-                                    </a>
-                                </span>
-                                <span class="navdd navdd--2">
-                                    <a href="https://github.com/SulymanAyomi" target="_blank" rel="noreferrer">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="react-icons" height="15" width="15" xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z">
-                                            </path>
-                                        </svg> Github
-                                    </a>
-                                </span>
-                                <span class="Btn-mail navdd navdd--3">
-                                    <a class="mail" href="mailto:sulymanayomi@gmail.com">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 14 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" d="M0 4v8c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1H1c-.55 0-1 .45-1 1zm13 0L7 9 1 4h12zM1 5.5l4 3-4 3v-6zM2 12l3.5-3L7 10.5 8.5 9l3.5 3H2zm11-.5l-4-3 4-3v6z">
-                                            </path>
-                                        </svg>
-                                    </a>
-                                </span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+    <section id="home" class="intro-section">
+      <div class="container">
+        <div class="row">
+          <!-- START THE intro section -->
+
+          <div class="profile-box pt-1 d-md-block d-lg-flex d-block">
+            <div class="profile-box__picture">
+              <!-- profile picture  -->
+
+              <img
+                src="images/ay.jpg"
+                alt="client-1 picture"
+                class="rounded-circle img-fluid"
+              />
             </div>
-        </nav>
 
-        <!-- intro section -->
+            <!-- information -->
 
-        <section id="home" class="intro-section">
-            <div class="container">
+            <div class="profile-box__info">
+              <div class="testimonials__name">
+                <h1
+                  class="display-2--intro animate-fadedown animate-fadedown--1"
+                >
+                  Sulyman Ayomi
+                </h1>
+                <div
+                  class="profile-box__info--subtitle text-capitalize animate-fadedown animate-fadedown--2"
+                >
+                  Full-Satck web developer, data science & ML enthusiast
+                </div>
                 <div class="row">
-
-                    <!-- START THE intro section -->
-
-                    <div class="profile-box pt-1 d-md-block d-lg-flex d-block">
-
-
-                        <div class="profile-box__picture">
-
-                            <!-- profile picture  -->
-
-
-                            <img src="images/ay.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
-                        </div>
-
-                        <!-- information -->
-
-                        <div class="profile-box__info">
-                            <div class="testimonials__name">
-                                <h1 class="display-2--intro animate-fadedown animate-fadedown--1">Sulyman Ayomi</h1>
-                                <div class="profile-box__info--subtitle text-capitalize animate-fadedown animate-fadedown--2">Full-Satck web developer, data
-                                    science & ML enthusiast</div>
-                                <div class="row">
-                                    <div class="col mt-3 profile-box__i animate-fadedown animate-fadedown--3">
-                                        <a href="https://facebook.com/abdulganiyu.sulyman.5"><i class="fab fa-facebook"></i></a>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                        <a href="https://github.com/SulymanAyomi"><i class="fab fa-github"></i></a>
-                                        <a href="https://www.linkedin.com/in/abdulganiyu-sulyman-59742b19a/"><i class="fab fa-linkedin"></i></a>
-                                       
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row text-center text-white mt-lg-3 animate-fadedown animate-fadedown--4">
-                                <div class="col">
-                                    <p class="fw-light">I build aweome and effective software and I love what I
-                                        do.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+                  <div
+                    class="col mt-3 profile-box__i animate-fadedown animate-fadedown--3"
+                  >
+                    <a href="https://facebook.com/abdulganiyu.sulyman.5"
+                      ><i class="fab fa-facebook"></i
+                    ></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/SulymanAyomi"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/abdulganiyu-sulyman-59742b19a/"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </div>
                 </div>
+              </div>
+              <div
+                class="row text-center text-white mt-lg-3 animate-fadedown animate-fadedown--4"
+              >
+                <div class="col">
+                  <p class="fw-light">
+                    I build aweome and effective software and I love what I do.
+                  </p>
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- about section start  -->
-        <section id="about" class="about">
-
-            <div class="container animate">
-                <div class="row">
-                    <div class="col-12 text-white col-lg-6 p-3 aabout animate">
-                        <div class="myr animate">
-                            <div class="wt">
-                                <span>Full-Satck</span>
-                            </div>
-                            <p></p>
-                        </div>
-                        <div class="myr mt-3 animate">
-                            <div class="wt">
-                                <span>Data Science</span>
-                            </div>
-                            <p></p>
-                        </div>
-                        <div class="myr mt-3 animate">
-                            <div class="wt">
-                                <span>Blog</span>
-                            </div>
-                            <p></p>
-                        </div>
-                    </div>
-                    <!-- about start -->
-                    <div class="col-12 col-lg-6 shadow p-3 aabout animate">
-                        <div class="">
-                            <h4 class="display-4 fw-bold text-white mb-4 mt-5 animate">Hi, I'm Ayomi</h4>
-                            <p class="animate">A Software Engineer.
-                                <br>
-                                Full name: Abdulganiyu Sulyman Ayo
-                                <br>
-                                I'm passionate about building modern, resilient,
-                                and inclusive software with a strong focus on responsive design, performance, and
-                                accessibility.
-                            </p>
-
-                            <p class="animate mt-3">I am curently open to freelance software opportunities.
-
-                                Please contact me at sulymanayomi@gmail.com.
-                                <br>
-                            </p>
-                            <br>
-                            <p class="animate">Skillsets:</p>
-                            <div class="aabout--list row text-capitalize animate">
-                                <div class="col-4">
-                                    <ul>
-                                        <li>html</li>
-                                        <li>css/Sass</li>
-                                        <li>javascript</li>
-                                        <li>python</li>
-                                        <li>git/Github</li>
-                                    </ul>
-                                </div>
-                                <div class="col-4">
-                                    <ul>
-                                        <li>php/laravel</li>
-                                        <li>Nodejs</li>
-                                        <li>vue/Gridsome/Nuxt</li>
-                                        <li>Django</li>
-                                        <li>Reactjs</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
+    <!-- about section start  -->
+    <section id="about" class="about">
+      <div class="container animate">
+        <div class="row">
+          <div class="col-12 text-white col-lg-6 p-3 aabout animate amb">
+            <div class="myr animate">
+              <div class="wt">
+                <span>Full-Satck</span>
+              </div>
+              <p></p>
             </div>
-        </section>
-
-        <!-- project section start -->
-        <section id="project" class="portfolio">
-            <div class="container">
-                <div class="text-center mt-5 reveal">
-                    <h3 class="display-3 fw-bold text-capitalize text-white mb-4 animate">latest work</h3>
-                </div>
-                <div class="portfolio__container row animate">
-                    <div class="col-sm-12 col-md-6 col-xs-12 col-lg-4 animate ">
-                        <div class="container portfolio-box shadow">
-                            <div class="portfolio-box--top">
-                                <h1>Freshmarket</h1>
-                                <span class="portfolio-box__i">
-                                    <a href="https://github.com/SulymanAyomi/freshmarket"><i class="fab fa-github"></i></a>
-                                </span>
-                            </div>
-                            <img src="images/Screenshot (3).png" alt="">
-                            <p>An e-commerce website for selling fresh products
-                            </p>
-                            <ul>
-                                <li>javascript</li>
-                                <li>Django</li>
-                                <li>Bootstrap</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-12 col-md-6 col-xs-12 col-lg-4 animate ">
-                        <div class="container portfolio-box shadow">
-                            <div class="portfolio-box--top">
-                                <h1>The wardrobe</h1>
-                                <span class="portfolio-box__i">
-                                    <a href="https://github.com/SulymanAyomi/client"><i class="fab fa-github"></i></a>
-                                </span>
-                            </div>
-                            <img src="images/thewardrobe.png" alt="">
-                            <p>An e-commerce website build with Nuxt.js and Node.js 
-                            </p>
-                            <ul>
-                                <li>Nuxt.js</li>
-                                <li>Node.js</li>
-                                <li>MongoDB</li>
-                                <li>Bootstrap</li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-12 col-md-6 col-xs-12 col-lg-4 animate ">
-                        <div class="container portfolio-box shadow">
-                            <div class="portfolio-box--top">
-                                <h1>The wardrobe Admin </h1>
-                                <span class="portfolio-box__i">
-                                    <a href="https://github.com/SulymanAyomi/admin"><i class="fab fa-github"></i></a>
-                                </span>
-                            </div>
-                            <img src="images/adminthewaedrobe.png" alt="">
-                            <p>Admin panel for the wardrobe project
-                            </p>
-                            <ul>
-                                <li>Nuxt.js</li>
-                                <li>Node.js</li>
-                                <li>MongoDB</li>
-                                <li>Bootstrap</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6 col-xs-12 col-lg-4 animate">
-                        <div class="container portfolio-box shadow">
-                            <div class="portfolio-box--top">
-                                <h1>Ayomi</h1>
-                                <span class="portfolio-box__i">
-                                    <a href="https://github.com/SulymanAyomi/personal"><i class="fab fa-github"></i></a>
-                                </span>
-                            </div>
-                            <img src="images/por.png" alt="">
-                            <p>my personal portfolio. I had a lot of fun creating it and I add some animations and transitions
-                            </p>
-                            <ul>
-                                <li>Html</li>
-                                <li>Bootstrap</li>
-                                <li>Sass</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class=" col-sm-12 col-md-6 col-xs-12 col-lg-4 animate">
-                        <div class=" container portfolio-box shadow">
-                            <div class="portfolio-box--top">
-                                <h1>Photo Album</h1>
-                                <span class="portfolio-box__i">
-                                    <a href="https://github.com/SulymanAyomi/photo"><i class="fab fa-github"></i></a>
-                                </span>
-                            </div>
-                            <img src="images/album.png" alt="">
-                            <p>A Django application for storing pictures and creating an album
-                            </p>
-                            <ul>
-                                <li>Django</li>
-                                <li>Bootstrap</li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class=" col-sm-12 col-md-6 col-xs-12 col-lg-4 animate">
-                        <div class="container portfolio-box shadow">
-                            <div class="portfolio-box--top">
-                                <h1>Socia media website</h1>
-                                <span class="portfolio-box__i">
-                                    <a href="https://github.com/SulymanAyomi/socia-media"><i class="fab fa-github"></i></a>
-                                </span>
-                            </div>
-                            <img src="images/social (2).png" alt="">
-                            <p>A simple social media website with features such as posts, followers, likes
-                            </p>
-                            <ul>
-                                <li>Django</li>
-                                <li>Tailwind</li>
-
-                            </ul>
-                        </div>
-
-                    </div>
-                    <div class=" col-sm-12 col-md-6 col-xs-12 col-lg-4 animate">
-                        <div class="container portfolio-box shadow">
-                            <div class="portfolio-box--top">
-                                <h1>Ayomi Store</h1>
-                                <span class="portfolio-box__i">
-                                    <a href="https://github.com/SulymanAyomi/cloth_store"><i class="fab fa-github"></i></a>
-                                </span>
-                            </div>
-                            <img src="images/k-store.png" alt="">
-                            <p>An e-commerce website using django on the backend and vue on the frontend
-                            </p>
-                            <ul>
-                                <li>Django</li>
-                                <li>Vue.js</li>
-                                <li>Bulma</li>
-                                <li>javascript</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
+            <div class="myr mt-3 animate">
+              <div class="wt">
+                <span>Data Science</span>
+              </div>
+              <p></p>
             </div>
-        </section>
-
-        <!-- the contact section -->
-        <footer class="footer">
-            <div class="animate">
-
-                <!-- START THE SOCIAL MEDIA CONTENT  -->
-                <div class="footer-sm" style="background-color: #212121;">
-                    <div class="container">
-                        <div class="row py-4 text-center text-white">
-                            <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
-                                Let make something amazing together. Start by saying hi </div>
-                            <div class="col-lg-7 col-md-6">
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <!-- START THE COPYRIGHT INFO  -->
-                <div class="footer-bottom pt-5 pb-5">
-                    <div class="container">
-                        <div class="row text-center text-white">
-                            <div class="col-12">
-                                <div class="footer-bottom__copyright">
-                                    &COPY; Copyright 2022 <a href="#">Sulyman Ayomi</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="myr mt-3 animate">
+              <div class="wt">
+                <span>Blog</span>
+              </div>
+              <p></p>
             </div>
-        </footer>
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/js/animate.js"></script>
+          </div>
+          <!-- about start -->
+          <div class="col-12 col-lg-6 shadow p-3 aabout animate">
+            <div class="">
+              <h4 class="display-4 fw-bold text-white mb-4 mt-5 animate">
+                Hi, I'm Ayomi
+              </h4>
+              <p class="animate">
+                A Software Engineer.
+                <br />
+                Full name: Abdulganiyu Sulyman Ayo
+                <br />
+                I'm passionate about building modern, resilient, and inclusive
+                software with a strong focus on responsive design, performance,
+                and accessibility.
+              </p>
 
-    </body>
+              <p class="animate mt-3">
+                I am curently open to freelance software opportunities. Please
+                contact me at sulymanayomi@gmail.com.
+                <br />
+              </p>
+              <br />
+              <p class="animate">Skillsets:</p>
+              <div class="aabout--list row text-capitalize animate">
+                <div class="col-4">
+                  <ul>
+                    <li>html</li>
+                    <li>css/Sass</li>
+                    <li>javascript</li>
+                    <li>python</li>
+                    <li>git/Github</li>
+                  </ul>
+                </div>
+                <div class="col-4">
+                  <ul>
+                    <li>php/laravel</li>
+                    <li>Nodejs</li>
+                    <li>vue/Gridsome/Nuxt</li>
+                    <li>Django</li>
+                    <li>Reactjs</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- project section start -->
+    <section id="project" class="portfolio">
+      <div class="container">
+        <div class="text-center mt-5 reveal">
+          <h3 class="display-3 fw-bold text-capitalize text-white mb-4 animate">
+            latest work
+          </h3>
+        </div>
+        <div class="portfolio__container row animate">
+          <div class="col-sm-12 col-md-6 col-xs-12 col-lg-4 animate">
+            <div class="container portfolio-box shadow">
+              <div class="portfolio-box--top">
+                <h1>Map</h1>
+                <span class="portfolio-box__i">
+                  <a href="https://github.com/SulymanAyomi/freshmarket"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </span>
+              </div>
+              <img src="images/map.png" alt="Map" />
+              <p>
+                In this project user can pin locations, rate locations and add
+                notes. Users can see other users pinned location.
+              </p>
+              <ul>
+                <li>Reactjs</li>
+                <li>Nodejs</li>
+                <li>Mapbox</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-xs-12 col-lg-4 animate">
+            <div class="container portfolio-box shadow">
+              <div class="portfolio-box--top">
+                <h1>Hotel booking</h1>
+                <span class="portfolio-box__i">
+                  <a href="https://github.com/SulymanAyomi/freshmarket"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </span>
+              </div>
+              <img src="images/booking (3).png" alt="" />
+              <p>
+                This project was designed to help travelers reserve hotel rooms.
+                Users can look up for hotel rooms based on locations and price.
+                It also include an admin panel.
+              </p>
+              <ul>
+                <li>Reactjs</li>
+                <li>Nodejs</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-xs-12 col-lg-4 animate">
+            <div class="container portfolio-box shadow">
+              <div class="portfolio-box--top">
+                <h1>Freshmarket</h1>
+                <span class="portfolio-box__i">
+                  <a href="https://github.com/SulymanAyomi/freshmarket"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </span>
+              </div>
+              <img src="images/Screenshot (3).png" alt="" />
+              <p>
+                An e-commerce website for selling fresh fruits and vegetables.
+                It includes a cart page, checkout page and online payment.
+              </p>
+              <ul>
+                <li>javascript</li>
+                <li>Django</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-xs-12 col-lg-4 animate">
+            <div class="container portfolio-box shadow">
+              <div class="portfolio-box--top">
+                <h1>Mehka store</h1>
+                <span class="portfolio-box__i">
+                  <a href="https://github.com/SulymanAyomi/client"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </span>
+              </div>
+              <div>
+                <img src="images/mehka.png" alt="" />
+              </div>
+              <p>
+                An e-commerce website build with Nuxt.js and Node.js. In this
+                project users can checkout with just four clicks. It includes
+                cart page, algolia search, checkout page, online payment with
+                paystack and stripe.
+                <a
+                  href="http://34.230.40.252/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >See here</a
+                >
+              </p>
+              <ul>
+                <li>Nuxt.js</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-xs-12 col-lg-4 animate">
+            <div class="container portfolio-box shadow">
+              <div class="portfolio-box--top">
+                <h1>Mehka Admin</h1>
+                <span class="portfolio-box__i">
+                  <a href="https://github.com/SulymanAyomi/admin"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </span>
+              </div>
+              <img src="images/adminthewaedrobe.png" alt="" />
+              <p>
+                Admin panel for Mehka store. It featured products report,
+                monthly sales, user activty, popular products, most sold
+                product.
+              </p>
+              <ul>
+                <li>Nuxt.js</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-xs-12 col-lg-4 animate">
+            <div class="container portfolio-box shadow">
+              <div class="portfolio-box--top">
+                <h1>Ayomi</h1>
+                <span class="portfolio-box__i">
+                  <a href="https://github.com/SulymanAyomi/personal"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </span>
+              </div>
+              <img src="images/por.png" alt="" />
+              <p>
+                my personal portfolio. I had a lot of fun creating it and I add
+                some animations and transitions
+              </p>
+              <ul>
+                <li>Html</li>
+                <li>Bootstrap</li>
+                <li>Sass</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-xs-12 col-lg-4 animate">
+            <div class="container portfolio-box shadow">
+              <div class="portfolio-box--top">
+                <h1>Photo Album</h1>
+                <span class="portfolio-box__i">
+                  <a href="https://github.com/SulymanAyomi/photo"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </span>
+              </div>
+              <img src="images/album.png" alt="" />
+              <p>
+                A Django application for storing pictures and creating an album
+              </p>
+              <ul>
+                <li>Django</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-xs-12 col-lg-4 animate">
+            <div class="container portfolio-box shadow">
+              <div class="portfolio-box--top">
+                <h1>Social media</h1>
+                <span class="portfolio-box__i">
+                  <a href="https://github.com/SulymanAyomi/socia-media"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </span>
+              </div>
+              <img src="images/social (2).png" alt="" />
+              <p>
+                A simple social media website with features such as posts,
+                followers, likes
+              </p>
+              <ul>
+                <li>Django</li>
+                <li>Tailwind</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-xs-12 col-lg-4 animate">
+            <div class="container portfolio-box shadow">
+              <div class="portfolio-box--top">
+                <h1>Ayomi Store</h1>
+                <span class="portfolio-box__i">
+                  <a href="https://github.com/SulymanAyomi/cloth_store"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                </span>
+              </div>
+              <img src="images/k-store.png" alt="" />
+              <p>
+                An e-commerce website using django on the backend and vue on the
+                frontend
+              </p>
+              <ul>
+                <li>Django</li>
+                <li>Vue.js</li>
+                <li>Bulma</li>
+                <li>javascript</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- the contact section -->
+    <footer class="footer">
+      <div class="animate">
+        <!-- START THE SOCIAL MEDIA CONTENT  -->
+        <div class="footer-sm" style="background-color: #212121">
+          <div class="container">
+            <div class="row py-4 text-center text-white">
+              <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+                Let make something amazing together. Start by saying hi
+              </div>
+              <div class="col-lg-7 col-md-6">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- START THE COPYRIGHT INFO  -->
+        <div class="footer-bottom pt-5 pb-5">
+          <div class="container">
+            <div class="row text-center text-white">
+              <div class="col-12">
+                <div class="footer-bottom__copyright">
+                  &COPY; Copyright 2022 <a href="#">Sulyman Ayomi</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/animate.js"></script>
+  </body>
 </html>
